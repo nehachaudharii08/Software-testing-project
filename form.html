@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <title> Registration </title>
+<head>
+    <style>
+body {
+  background-color: darkslategrey;
+
+
+    }
+        form{
+            color: azure;
+            font-family: sans-serif;
+         
+        }
+    </style>
+    
+
+<form>
+     <fieldset>
+       
+    
+    <legend><b> Student Registration form</b></legend>
+   
+    <label>Name</label><br>
+    <input type="text"name="First Name" placeholder="First Name" value=""><br>
+    <input type="text"name="Last Name" placeholder="Last Name" value=""><br>
+         <br>
+    <label>Email</label><br>
+         <br>
+    <input type="Email"name="Name@example.com" placeholder="name@example.com" value=""><br>
+         <br>
+    <label for="gender">Gender:</label>
+    <input type="radio"id="Gender"name="gender"value="Male"/>Male
+    <input type="radio"id="gender"name="gender"value="Female"/>Female
+    <input type="radio"id="gender"name="gender"value="Other"/>Other<br>
+         <br>
+    <label>Mobile(10digits)</label><br>
+         <br>
+    <input type="number"Name="Mobile Number" value="number">
+         <br>
+    <br>
+    Date of Birth<br><input type="date"name="date of birth"><br>
+         <br>
+       
+    Subjects<br>
+    <textarea row="2" cols="20"></textarea><br>
+         <br>
+    Hobbies<br>
+         <br>
+        <input type="checkbox"id="sports"name="sports" value="sports"/>
+    <label for ="sports">Sports</label>
+    <input type="checkbox"id="Reading"name="Reading" value="Reading"/>
+     <label for ="Reading">Reading</label>
+     <input type="checkbox"iname="Music" value="Music"/>
+    <label for ="Music">Music</label><br>
+         <br>
+         <br>
+    Picture
+         <br>
+         <br>
+    <label>Select Picture</label><br>
+         <br>
+    <input type="file" name="choose file"><br>
+         <br>
+    <label>Current Address</label><br>
+     <textarea row="2" cols="30"></textarea>
+    <br>
+         <br>
+    <label>State and City</label><br>
+     <input type="text"name="name" placeholder="State" value=""><br>
+    <input type="text"name="name" placeholder="City" value="">
+    <br>
+         <br>
+    <button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Sucessfuly Registered. Please Login With the Credentials sent on Registered Mobile No.");
+}
+</script>
+
+    
+         
+    </fieldset>
+    
+</form>
+    
+    
+    
+</head>
+<body>
+
+
+
+
+
+
+      

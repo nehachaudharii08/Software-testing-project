@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>Login Page</title>
+<head><h2><center>Login</h2></center>
+<meta name="viewport" content = "width=device-width,inital-scale=1">
+</head>
+<style>
+Body{
+    background-color: darkslateblue ;
+
+font-family: sans-serif;
+}
+
+
+form{
+border: 2px solid #008080;
+height: 500px;
+width: 30%;}
+
+input[type=text], input[type=password]
+{
+width:40%;
+padding:2px 4px;
+
+display:incline-block;
+
+}
+button{
+background-color: blue;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border: none;
+cursor:pointer;
+width:50%;
+}
+button:hover{
+opacity:0.8;
+}
+
+</style>
+
+<body>
+<div class="container"><center>
+<form action="/action_page.php" target="_blank">
+<br><br>
+<label for="fname">Username </label><br>
+<input type ="text" id = "fname" name="fname"><br><br>
+<label for="pass">Password</label><br>
+<input type ="password" id = "pass" name="pass"><br><br>
+<button type="submit" value ="Log in" >Login</button><br><br>
+Forgot<a href="pass_forget.html"> password?</a>
+</form>
+</center>
+</div>
+
+</body>
+</html>
